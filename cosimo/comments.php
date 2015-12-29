@@ -71,9 +71,9 @@ if ( post_password_required() ) {
 	$aria_req = ( $req ? " aria-required='true'" : '' );
 
 	$fields =  array(
-		'author' => '<p class="comment-form-author"><label for="author"><span class="screen-reader-text">' . __( '姓名 *'  , 'cosimo' ) . '</span></label><input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" ' . $aria_req . ' placeholder="' . __( 'Name *'  , 'cosimo' ) . '"/></p>',
-		'email'  => '<p class="comment-form-email"><label for="email"><span class="screen-reader-text">' . __( '邮箱 *'  , 'cosimo' ) . '</span></label><input id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" ' . $aria_req . ' placeholder="' . __( 'Email *'  , 'cosimo' ) . '"/></p>',
-		'url'    => '<p class="comment-form-url"><label for="url"><span class="screen-reader-text">' . __( '站点 *'  , 'cosimo' ) . '</span></label><input id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" placeholder="' . __( 'Website'  , 'cosimo' ) . '"/></p>',
+		'author' => '<p class="comment-form-author"><label for="author"><span class="screen-reader-text">' . __( 'Name *'  , 'cosimo' ) . '</span></label><input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" ' . $aria_req . ' placeholder="' . __( '姓名 *'  , 'cosimo' ) . '"/></p>',
+		'email'  => '<p class="comment-form-email"><label for="email"><span class="screen-reader-text">' . __( 'Email *'  , 'cosimo' ) . '</span></label><input id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" ' . $aria_req . ' placeholder="' . __( '邮箱 *'  , 'cosimo' ) . '"/></p>',
+		'url'    => '<p class="comment-form-url"><label for="url"><span class="screen-reader-text">' . __( 'Website'  , 'cosimo' ) . '</span></label><input id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" placeholder="' . __( '站点'  , 'cosimo' ) . '"/></p>',
 	);
 	$required_text = esc_html__(' 必填字段 ', 'cosimo').' <span class="required">*</span>';
 	?>
@@ -86,7 +86,7 @@ if ( post_password_required() ) {
 		'title_reply_to' => __( '发表评论 to %s'  , 'cosimo' ),
 		'cancel_reply_link' => __( '取消回复'  , 'cosimo' ) . '<i class="fa fa-times spaceLeft"></i>',
 		'label_submit' => __( '发表评论'  , 'cosimo' ),
-		'comment_field' => '<p class="comment-form-comment"><label for="comment"><span class="screen-reader-text">' . __( '评论内容 *'  , 'cosimo' ) . '</span></label><textarea id="comment" name="comment" rows="8" aria-required="true" placeholder="' . __( 'Comment *'  , 'cosimo' ) . '"></textarea></p>',
+		'comment_field' => '<p class="comment-form-comment"><label for="comment"><span class="screen-reader-text">' . __( 'Comment *'  , 'cosimo' ) . '</span></label><textarea id="comment" name="comment" rows="8" aria-required="true" placeholder="' . __( '评论内容 *'  , 'cosimo' ) . '"></textarea></p>',
 	));
 	?>
 
