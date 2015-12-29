@@ -96,7 +96,7 @@ function cosimo_posted_on() {
 	
 	if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo ' <span class="comments-link"><i class="fa fa-comments-o spaceLeftRight"></i>';
-		comments_popup_link( esc_html__( 'Leave a comment', 'cosimo' ), esc_html__( '1 Comment', 'cosimo' ), esc_html__( '% Comments', 'cosimo' ) );
+		comments_popup_link( esc_html__( '发表评论', 'cosimo' ), esc_html__( '1 评论', 'cosimo' ), esc_html__( '% 评论', 'cosimo' ) );
 		echo '</span>';
 	}
 
