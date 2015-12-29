@@ -21,10 +21,10 @@ $enlargeFeatImage = get_theme_mod('cosimo_theme_options_enlargefeatured', '1');
 
 			<?php
 				the_post_navigation( array(
-					'next_text' => '<div class="theMetaLink"><div class="meta-nav" aria-hidden="true"><span class="smallPart">' . esc_html__( 'Next Post', 'cosimo' ) . '</span></div> <i class="fa fa-lg fa-angle-right spaceLeft"></i></div>' .
+					'next_text' => '<div class="theMetaLink"><div class="meta-nav" aria-hidden="true"><span class="smallPart">' . esc_html__( '下一页', 'cosimo' ) . '</span></div> <i class="fa fa-lg fa-angle-right spaceLeft"></i></div>' .
 						'<span class="screen-reader-text">' . esc_html__( 'Next post:', 'cosimo' ) . '</span> ' .
 						'<div class="theMetaTitle">%title</div>',
-					'prev_text' => '<div class="theMetaLink"><i class="fa fa-lg fa-angle-left spaceRight"></i> <div class="meta-nav" aria-hidden="true"><span class="smallPart">' . esc_html__( 'Previous Post', 'cosimo' ) . '</span></div></div>' .
+					'prev_text' => '<div class="theMetaLink"><i class="fa fa-lg fa-angle-left spaceRight"></i> <div class="meta-nav" aria-hidden="true"><span class="smallPart">' . esc_html__( '上一页', 'cosimo' ) . '</span></div></div>' .
 						'<span class="screen-reader-text">' . esc_html__( 'Previous post:', 'cosimo' ) . '</span> ' .
 						'<div class="theMetaTitle">%title</div>',
 				) );
