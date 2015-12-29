@@ -43,7 +43,7 @@
 			
 			<footer class="entry-footer smallPart">
 				<?php edit_post_link( esc_html__( 'Edit', 'cosimo' ), '<span class="edit-link floatLeft"><i class="fa fa-wrench spaceRight"></i>', '</span>' ); ?>
-				<span class="read-more"><a href="<?php echo get_permalink(); ?>"><?php esc_html_e('Read More', 'cosimo') ?></a><i class="fa spaceLeft fa-caret-right"></i></span>
+				<span class="read-more"><a href="<?php echo get_permalink(); ?>"><?php esc_html_e('阅读更多', 'cosimo') ?></a><i class="fa spaceLeft fa-caret-right"></i></span>
 			</footer><!-- .entry-footer -->
 		</div><!-- .theCosimo-box -->
 			
