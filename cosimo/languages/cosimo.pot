@@ -1,0 +1,577 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-01-06 02:24:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:28
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:47 index.php:44 search.php:43
+msgid "Previous"
+msgstr ""
+
+#: archive.php:48 index.php:45 search.php:44
+msgid "Next"
+msgstr ""
+
+#: archive.php:49 index.php:46 search.php:45
+#: template-parts/content-page.php:23 template-parts/content-single.php:26
+msgid "Page"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:42
+msgid "Reply"
+msgstr ""
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Name *"
+msgstr ""
+
+#: comments.php:75
+msgid "Email *"
+msgstr ""
+
+#: comments.php:76
+msgid "Website *"
+msgstr ""
+
+#: comments.php:76
+msgid "Website"
+msgstr ""
+
+#: comments.php:78
+msgid " Required fields are marked "
+msgstr ""
+
+#: comments.php:82
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:83
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:84
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:85
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:86
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:87
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:88
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:89
+msgid "Comment *"
+msgstr ""
+
+#: comments.php:90
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: footer.php:26
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:26
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:28
+#, php-format
+msgid "%1$s by %2$s."
+msgstr ""
+
+#: footer.php:33
+msgid "Facebook"
+msgstr ""
+
+#: footer.php:36
+msgid "Twitter"
+msgstr ""
+
+#: footer.php:39
+msgid "Google Plus"
+msgstr ""
+
+#: footer.php:42
+msgid "Linkedin"
+msgstr ""
+
+#: footer.php:45
+msgid "Instagram"
+msgstr ""
+
+#: footer.php:48
+msgid "YouTube"
+msgstr ""
+
+#: footer.php:51
+msgid "Pinterest"
+msgstr ""
+
+#: footer.php:54
+msgid "Tumblr"
+msgstr ""
+
+#: footer.php:57
+msgid "VK"
+msgstr ""
+
+#: functions.php:56 header.php:40
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:91
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:49
+msgid "Search for:"
+msgstr ""
+
+#: header.php:50
+msgid "Type here and hit enter..."
+msgstr ""
+
+#: inc/customizer.php:43
+msgid "Site Title and Description color"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Box Background Color"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Secondary Text Color"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Special Color"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid "Cosimo Theme Options"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "YouTube URL"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "VK URL"
+msgstr ""
+
+#: inc/customizer.php:184
+msgid "Show Opacity on Header"
+msgstr ""
+
+#: inc/customizer.php:202
+msgid "Show Search Button in Main Menu"
+msgstr ""
+
+#: inc/customizer.php:220
+msgid "Last Post Blog Big?"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Enlarge Featured Images"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Get Cosimo PRO WP Theme for only"
+msgstr ""
+
+#: inc/customizer.php:257
+msgid "Watch the demo"
+msgstr ""
+
+#: inc/customizer.php:260
+msgid "Get Cosimo PRO Theme"
+msgstr ""
+
+#: inc/customizer.php:264
+msgid "Advanced Theme Options"
+msgstr ""
+
+#: inc/customizer.php:265
+msgid "Logo Upload"
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "Font switcher"
+msgstr ""
+
+#: inc/customizer.php:267
+msgid "Loading Page"
+msgstr ""
+
+#: inc/customizer.php:268
+msgid "Unlimited Colors and Skin"
+msgstr ""
+
+#: inc/customizer.php:269
+msgid "Exclusive Portfolio"
+msgstr ""
+
+#: inc/customizer.php:270
+msgid "WooCommerce Style"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Post views counter"
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Posts with Infinite Scroll"
+msgstr ""
+
+#: inc/customizer.php:273
+msgid "Post formats (Audio, Video, Gallery)"
+msgstr ""
+
+#: inc/customizer.php:274
+msgid "8 Shortcodes"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid "11 Exclusive Widgets"
+msgstr ""
+
+#: inc/customizer.php:276
+msgid "Related Posts Box"
+msgstr ""
+
+#: inc/customizer.php:277
+msgid "Information About Author Box"
+msgstr ""
+
+#: inc/customizer.php:278
+msgid "Parallax Header"
+msgstr ""
+
+#: inc/customizer.php:279
+msgid "Header with YouTube video"
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "And much more..."
+msgstr ""
+
+#: inc/customizer.php:286
+msgid "More features? Upgrade to PRO"
+msgstr ""
+
+#: inc/extras.php:52
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:59 single.php:27
+msgid "Previous Post"
+msgstr ""
+
+#: inc/template-tags.php:59 single.php:28
+msgid "Previous post:"
+msgstr ""
+
+#: inc/template-tags.php:60 single.php:24
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:60
+msgid "Next Post:"
+msgstr ""
+
+#: inc/template-tags.php:86
+#, php-format
+msgctxt "post date"
+msgid "<i class=\"fa fa-clock-o spaceRight\"></i>%s"
+msgstr ""
+
+#: inc/template-tags.php:91
+#, php-format
+msgctxt "post author"
+msgid "<i class=\"fa fa-user spaceLeftRight\"></i>%s"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:114
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/template-tags.php:118 template-parts/content-page.php:30
+#: template-parts/content.php:45
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:147
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:149
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:151
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:153
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:153
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:155
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:155
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:157
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:157
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:160
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:162
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:164
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:166
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:168
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:170
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:172
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:174
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:176
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:179
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/template-tags.php:183
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:185
+msgid "Archives"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:25
+msgid "Next post:"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19 template-parts/content-single.php:22
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:46
+msgid "Read More"
+msgstr ""
