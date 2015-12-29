@@ -23,7 +23,7 @@
 		$hideSearch = get_theme_mod('cosimo_theme_options_hidesearch', '1');
 	?>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'cosimo' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( '跳到内容', 'cosimo' ); ?></a>
 		<div class="whiteSpace">
 			<?php
 			if ( is_active_sidebar( 'sidebar-1' ) ) {
@@ -34,7 +34,7 @@
 				<div class="main-search-box"><i class="fa fa-lg fa-search"></i></div>
 			<?php endif; ?>
 			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-lg fa-bars"></i><?php esc_html_e( 'Primary Menu', 'cosimo' ); ?></button>
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-lg fa-bars"></i><?php esc_html_e( '主菜单', 'cosimo' ); ?></button>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 			</nav><!-- #site-navigation -->
 			<?php if ($hideSearch == 1 ) : ?>
@@ -43,8 +43,8 @@
 				<div class="search-container">
 					<form role="search" method="get" id="search-form" action="<?php echo home_url( '/' ); ?>">
 						<label>
-							<span class="screen-reader-text"><?php esc_html_e( 'Search for:', 'cosimo' ); ?></span>
-							<input type="search" name="s" id="search-field" placeholder="<?php esc_html_e('Type here and hit enter...', 'cosimo'); ?>">
+							<span class="screen-reader-text"><?php esc_html_e( '搜索:', 'cosimo' ); ?></span>
+							<input type="search" name="s" id="search-field" placeholder="<?php esc_html_e('在这里输入并搜素', 'cosimo'); ?>">
 						</label>
 					</form>
 					<span class="closeSearch"><i class="fa fa-close fa-lg"></i></span>
