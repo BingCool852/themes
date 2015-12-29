@@ -17,11 +17,11 @@
 		<div class="theCosimoSingle-box">
 			<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
-				<p><?php printf( wp_kses( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'cosimo' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
+				<p><?php printf( wp_kses( __( '准备好发布您的第一篇文章？ <a href="%1$s">Get started here</a>.', 'cosimo' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
 
 			<?php elseif ( is_search() ) : ?>
 
-				<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'cosimo' ); ?></p>
+				<p><?php esc_html_e( '抱歉，没有符合您的搜索条件。请换其它关键词再试。', 'cosimo' ); ?></p>
 				<?php get_search_form(); ?>
 
 			<?php else : ?>
