@@ -56,8 +56,8 @@ function the_post_navigation() {
 		<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'cosimo' ); ?></h2>
 		<div class="nav-links">
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', '<div class="theNavigationArrow"><i class="fa prevNext fa-2x fa-angle-left"></i></div><div class="meta-nav" aria-hidden="true"><span class="smallPart">' . esc_html__( 'Previous Post', 'cosimo' ) . '</span> ' . '<span class="screen-reader-text">' . esc_html__( '上一篇', 'cosimo' ) . '</span> ' . '<div class="nextPrevName">%title</div></div>' );
-				next_post_link( '<div class="nav-next">%link</div>', '<div class="meta-nav" aria-hidden="true"><span class="smallPart">' . esc_html__( 'Next Post', 'cosimo' ) . '</span><div class="nextPrevName">%title</div></div><div class="theNavigationArrow"><i class="fa prevNext fa-2x fa-angle-right"></i></div> ' . '<span class="screen-reader-text">' . esc_html__( '下一篇', 'cosimo' ) . '</span> ');
+				previous_post_link( '<div class="nav-previous">%link</div>', '<div class="theNavigationArrow"><i class="fa prevNext fa-2x fa-angle-left"></i></div><div class="meta-nav" aria-hidden="true"><span class="smallPart">' . esc_html__( '上一篇', 'cosimo' ) . '</span> ' . '<span class="screen-reader-text">' . esc_html__( 'Previous Post', 'cosimo' ) . '</span> ' . '<div class="nextPrevName">%title</div></div>' );
+				next_post_link( '<div class="nav-next">%link</div>', '<div class="meta-nav" aria-hidden="true"><span class="smallPart">' . esc_html__( '下一篇', 'cosimo' ) . '</span><div class="nextPrevName">%title</div></div><div class="theNavigationArrow"><i class="fa prevNext fa-2x fa-angle-right"></i></div> ' . '<span class="screen-reader-text">' . esc_html__( 'Next Post', 'cosimo' ) . '</span> ');
 			?>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
