@@ -115,7 +115,7 @@ function cosimo_entry_footer() {
 		}
 	}
 
-	edit_post_link( esc_html__( 'Edit', 'cosimo' ), '<span class="edit-link floatLeft"><i class="fa fa-wrench spaceLeftRight"></i>', '</span>' );
+	edit_post_link( esc_html__( '编辑', 'cosimo' ), '<span class="edit-link floatLeft"><i class="fa fa-wrench spaceLeftRight"></i>', '</span>' );
 }
 endif;
 
