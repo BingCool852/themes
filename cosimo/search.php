@@ -13,7 +13,7 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'cosimo' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h1 class="page-title"><?php printf( esc_html__( '搜索结果来自: %s', 'cosimo' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ global $i; $i = 0; ?>
@@ -40,9 +40,9 @@ get_header(); ?>
 				the_posts_navigation();
 			} else {
 				the_posts_pagination( array(
-					'prev_text'          => '<i class="fa fa-angle-double-left spaceRight"></i>' . esc_html__( 'Previous', 'cosimo' ),
-					'next_text'          => esc_html__( 'Next', 'cosimo' ) . '<i class="fa fa-angle-double-right spaceLeft"></i>',
-					'before_page_number' => '<span class="meta-nav screen-reader-text">' . esc_html__( 'Page', 'cosimo' ) . ' </span>',
+					'prev_text'          => '<i class="fa fa-angle-double-left spaceRight"></i>' . esc_html__( '上一', 'cosimo' ),
+					'next_text'          => esc_html__( '下一', 'cosimo' ) . '<i class="fa fa-angle-double-right spaceLeft"></i>',
+					'before_page_number' => '<span class="meta-nav screen-reader-text">' . esc_html__( '页', 'cosimo' ) . ' </span>',
 				) );
 			} ?>
 
