@@ -320,14 +320,14 @@ blockquote {
     padding: 1.5em 1.5em 1.5em 3.5em;
     margin: 0 0 1.5em;
     position: relative;
-    border-left: 4px solid #777;
+    border-left: 4px solid #777 !important;
     /*border-right: 1px solid #eb911c;*/
     font-style: italic;
 }
 blockquote::before {
 	content: "\201C";
-	font-size: 60px;
-	color: #eb911c;
+	font-size: 50px;
+	color: #777;
 	line-height: 1;
 	font-weight: bold;
 	position: absolute;
