@@ -80,7 +80,7 @@ if ( post_password_required() ) {
 	<?php comment_form( array(
 		'fields' => apply_filters( 'comment_form_default_fields', $fields ),
 		'must_log_in' => '<p class="must-log-in">' .  sprintf( __( '您必须<a href="%s">登录</a>后才可发表评论.' , 'cosimo' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
-		'logged_in_as' => '<p class="logged-in-as smallPart">' . sprintf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>'  , 'cosimo' ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
+		'logged_in_as' => '<p class="logged-in-as smallPart">' . sprintf( __( '登录人: <a href="%1$s">%2$s</a>. <a href="%3$s" title="退出账号">Log out?</a>'  , 'cosimo' ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
 		'comment_notes_before' => '<p class="comment-notes smallPart">' . __( '您的电子邮件地址不会被公开。'  , 'cosimo' ) . ( $req ? $required_text : '' ) . '</p>',
 		'title_reply' => __( '发表评论'  , 'cosimo' ),
 		'title_reply_to' => __( '发表评论 to %s'  , 'cosimo' ),
