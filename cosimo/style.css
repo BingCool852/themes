@@ -324,7 +324,7 @@ blockquote {
     border-right: 0px solid #777 !important;
     font-style: italic;
 }
-blockquote::before {
+/*blockquote::before {
 	content: "\201C";
 	font-size: 50px;
 	color: #777 !important;
@@ -333,7 +333,7 @@ blockquote::before {
 	position: absolute;
 	left: 10px;
 	top: 10px;
-}
+}*/
 
 address {
 	margin: 0 0 1.5em;
