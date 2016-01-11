@@ -2,7 +2,7 @@
 
     html,
     body.login {
-        background: #f2f2f2;
+        background: url(bg.jpg);
         font: 14px 'Microsoft YaHei', Arial, Lucida Grande, Tahoma, sans-serif;
     }
     /** 去掉链接下划线 **/
