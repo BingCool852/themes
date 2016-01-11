@@ -151,6 +151,14 @@ function cosimo_fix_tag_cloud($tag_string){
 add_filter('wp_generate_tag_cloud', 'cosimo_fix_tag_cloud',10,3);
 
 /**
+ * 自定义登录界面
+ */
+function custom_login() {   
+	echo '<link rel="stylesheet" tyssspe="text/css" href="' . get_bloginfo('template_directory') . '/custom_login/custom_login.css" />'; 
+}   
+add_action('login_head', 'custom_login');
+   
+/**
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';
