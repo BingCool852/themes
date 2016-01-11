@@ -320,8 +320,8 @@ blockquote {
     padding: 1.5em 1.5em 1.5em 3.5em;
     margin: 0 0 1.5em;
     position: relative;
-    border-left: 4px double #eb911c;
-    border-right: 1px solid #eb911c;
+    border-left: 4px solid #777;
+    /*border-right: 1px solid #eb911c;*/
     font-style: italic;
 }
 blockquote::before {
