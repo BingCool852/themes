@@ -1,5 +1,8 @@
     /** 背景及字体 **/
-    
+    body{
+        background: url(bg.jpg);
+    }
+
     html,
     body.login {
         background: #f2f2f2;
