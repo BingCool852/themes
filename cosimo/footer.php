@@ -23,9 +23,9 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info smallPart">
 			<div class="infoFoo">
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'cosimo' ) ); ?>"><?php printf( esc_html__( '自豪的使用了 %s', 'cosimo' ), 'WordPress' ); ?></a>
+				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'cosimo' ) ); ?>"><?php printf( '自豪的使用了WordPress' ); ?></a>
 				<span class="sep"> | </span>
-				<?php printf( esc_html__( '%1$s by %2$s.', 'cosimo' ), 'cosimo主题', '<a target="_blank" href="http://crestaproject.com/" rel="designer" title="CrestaProject">CrestaProject</a>' ); ?>
+				<?php printf( 'cosimo主题', '<a target="_blank" href="http://crestaproject.com/" rel="designer" title="CrestaProject">CrestaProject</a>' ); ?>
 			</div>
 			<div class="infoFoo right">
 				<div class="socialLine">
