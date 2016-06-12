@@ -213,7 +213,7 @@ endif;
 
 /*-------------------------------------------------------------------------------------------------------------------------------------*/
 /**
- * Change the menu postion in dashboard
+ * Change the menu position in dashboard
  */ 
 function my_move_post () {
     global $menu;
